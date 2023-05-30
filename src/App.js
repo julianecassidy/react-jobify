@@ -4,7 +4,7 @@ import RoutesList from './Routes/RoutesList';
 import Nav from './Routes/Nav';
 import './App.css';
 import userContext from './userContext';
-import JoblyApi from "./Api/JoblyApi";
+import JobifyApi from "./Api/JobifyApi";
 import jwt_decode from "jwt-decode";
 import Loading from "./Loading";
 import setLocalStorage from "./setLocalStorage";
@@ -33,7 +33,7 @@ function App() {
       username: username,
       password: password
     };
-    const token = await JoblyApi.authenticateUser(userData);
+    const token = await JobifyApi.authenticateUser(userData);
     setLocalStorage(token);
     setToken(token);
   }
@@ -47,14 +47,14 @@ function App() {
       lastName: lastName,
       email: email
     };
-    const token = await JoblyApi.signupUser(userData);
+    const token = await JobifyApi.signupUser(userData);
     setLocalStorage(token);
     setToken(token);
   }
 
   /** Logout user by removing token and current user data  */
   function logout() {
-    const token = JoblyApi.logoutUser();
+    const token = JobifyApi.logoutUser();
     setLocalStorage(token);
     setToken(token);
     setCurrentUser(null);
@@ -67,7 +67,7 @@ function App() {
         try {
           const { username } = jwt_decode(token);
 
-          const user = await JoblyApi.getUser(username);
+          const user = await JobifyApi.getUser(username);
           setCurrentUser(user);
         } catch (err) {
           setToken(localStorage.getItem("token"));

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import JobCardList from "./JobCardList";
 import Loading from "../Loading";
-import JoblyApi from "../Api/JoblyApi";
+import JobifyApi from "../Api/JobifyApi";
 import Search from "../Search";
 /**
  * Component for JobList
@@ -27,7 +27,7 @@ function JobList() {
     //fetches jobs api after first render
     useEffect(function fetchJobsOnMount() {
         async function fetchJobs() {
-            const results = await JoblyApi.getJobs();
+            const results = await JobifyApi.getJobs();
             setJobs(curr => {
                 curr.jobsData = results;
                 curr.isLoading = false;
@@ -42,7 +42,7 @@ function JobList() {
         setSearchTerm(SearchTitle);
 
         try {
-            const results = await JoblyApi.getJobs(SearchTitle);
+            const results = await JobifyApi.getJobs(SearchTitle);
             setJobs({
                 jobsData: results,
                 isLoading: false

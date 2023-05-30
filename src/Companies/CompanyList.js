@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CompanyCardList from "./CompanyCardList";
 import Loading from "../Loading";
-import JoblyApi from "../Api/JoblyApi";
+import JobifyApi from "../Api/JobifyApi";
 import Search from "../Search";
 
 /**
@@ -28,7 +28,7 @@ function CompanyList() {
     //fetches list of companies from api after first render
     useEffect(function fetchCompaniesOnMount() {
         async function fetchCompanies() {
-            const results = await JoblyApi.getCompanies();
+            const results = await JobifyApi.getCompanies();
             setCompanies({
                 companiesData: results,
                 isLoading: false
@@ -42,7 +42,7 @@ function CompanyList() {
         setSearchTerm(searchName);
 
         try {
-            const results = await JoblyApi.getCompanies(searchName);
+            const results = await JobifyApi.getCompanies(searchName);
             setCompanies({
                 companiesData: results,
                 isLoading: false

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import JoblyApi from '../Api/JoblyApi';
+import JobifyApi from '../Api/JobifyApi';
 import Loading from '../Loading';
 import JobCardList from '../Jobs/JobCardList';
 import NotFound from '../NotFound';
@@ -26,7 +26,7 @@ function CompanyDetail() {
     useEffect(function fetchCompanyOnMount() {
         async function fetchCompany(handle) {
             try {
-            const results = await JoblyApi.getCompany(handle);
+            const results = await JobifyApi.getCompany(handle);
             setCompany({
                 companyData: results,
                 isLoading: false

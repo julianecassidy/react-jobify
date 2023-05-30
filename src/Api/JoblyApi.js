@@ -7,10 +7,10 @@ const BASE_URL = process.env.REACT_APP_BASE_URL || "http://localhost:3001";
  * Static class tying together methods used to get/send to to the API.
  * There shouldn't be any frontend-specific stuff here, and there shouldn't
  * be any API-aware stuff elsewhere in the frontend.
- *
  */
 
-class JoblyApi {
+
+class JobifyApi {
     // Remember, the backend needs to be authorized with a token
     // We're providing a token you can use to interact with the backend API
     // DON'T MODIFY THIS TOKEN
@@ -25,7 +25,7 @@ class JoblyApi {
             // console.log("API token: ", this.token);
 
         const url = `${BASE_URL}/${endpoint}`;
-        const headers = { Authorization: `Bearer ${JoblyApi.token}` };
+        const headers = { Authorization: `Bearer ${JobifyApi.token}` };
         const params = (method === "get")
             ? data
             : {};
@@ -110,4 +110,4 @@ class JoblyApi {
 
 
 }
-export default JoblyApi;
+export default JobifyApi;

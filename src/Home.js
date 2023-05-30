@@ -21,7 +21,7 @@ function Home() {
 
     return (
         <div className="Home">
-            <h1 className="Home-h1">Jobly</h1>
+            <h1 className="Home-h1">Jobify</h1>
             <div className="Home-subheading">All the jobs in one convenient place</div>
             {currentUser !== null
             ? <h2>Welcome back, {currentUser.user.firstName}</h2>

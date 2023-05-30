@@ -1,6 +1,6 @@
 .Home {
     margin-top: -3%;
-    background-image: url(http://localhost:3000/jobs.gif);
+    background-image: url("/jobs.gif");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;

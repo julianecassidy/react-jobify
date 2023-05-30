@@ -59,7 +59,7 @@ function Nav({ logout }) {
     return (
         <nav className="Nav">
             <NavLink className="Nav-Home" to="/">
-                Jobly</NavLink>
+                Jobify</NavLink>
             {(currentUser !== null) ? loggedIn() : notLoggedIn()}
         </nav>
     );
