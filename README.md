@@ -122,7 +122,7 @@ This project was built in May 2023 with the following:
 - ![Render][Render]
 
 
-See [requirements.txt](https://github.com/julianecassidy/react-jobify/blob/master/requirements.txt) for a full list of dependencies.
+See [requirements.txt](https://github.com/julianecassidy/react-jobly-backend/blob/master/requirements.txt) for a full list of dependencies.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,6 +175,7 @@ To get a local copy up and running follow these steps.
 - [ ] Add user profile page with options to edit profile
 - [ ] Add a "forgot password" feature
 - [ ] Refactor styling with Tailwind CSS
+- [ ] Movevery frontend from Surge to Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +203,7 @@ Live Demo: [http://jobify.julianecassidy.com/](http://jobify.julianecassidy.com/
 
 ## Acknowledgments
 
-I completed this project at [Rithm School](https://www.rithmschool.com/). I would like to thank the my pairs for the project -- [Justin Clark](https://github.com/jclark1913) on the backend and [Sarah Graup](https://github.com/sarahgraup) on the frontend. I'd also like to thank the staff of Rithm for code reviews and assistance.
+I completed this project at [Rithm School](https://www.rithmschool.com/). I would like to thank the my pairs for the project -- [Chris Lupton](https://github.com/clupt) on the backend and [Sarah Graup](https://github.com/sarahgraup) on the frontend. I'd also like to thank the staff of Rithm for code reviews and assistance.
 
 - [Rithm School](https://www.rithmschool.com/)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
