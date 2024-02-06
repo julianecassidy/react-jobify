@@ -28,7 +28,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
          <!-- <li><a href="#screenshots">Screenshots</a></li> -->
-        <li><a href="#key-features">Key Features</a></li>
+<!--         <li><a href="#key-features">Key Features</a></li> -->
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -37,8 +37,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+<!--     <li><a href="#contributing">Contributing</a></li> -->
+<!--     <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -106,10 +106,6 @@ You can log into the [demo site](http://jobify.julianecassidy.com/) with the fol
 </p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-### Key Features
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
