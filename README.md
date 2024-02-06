@@ -18,8 +18,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/julianecassidy/react-jobify)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/julianecassidy/react-jobify)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julianecassidy/react-jobify)
-![GitHub](https://img.shields.io/github/license/julianecassidy/react-jobify)
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
