@@ -1,70 +1,229 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h1 align="center">Jobify</h1>
 
-## Available Scripts
+  <p align="center">
+    All the jobs in one convenient place
+    <br />
+    <br />
+    <a href="http://jobify.julianecassidy.com/" target="_blank">Demo</a>
+    ·
+    <a href="https://github.com/julianecassidy/react-jobly-backend" target="_blank">Backend Repo</a>
+  </p>
+</div>
+<div align="center">
 
-In the project directory, you can run:
+![Top Languages](https://img.shields.io/github/languages/top/julianecassidy/react-jobify)
+![GitHub repo size](https://img.shields.io/github/repo-size/julianecassidy/react-jobify)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/julianecassidy/react-jobify)
+![GitHub last commit](https://img.shields.io/github/last-commit/julianecassidy/react-jobify)
+![GitHub](https://img.shields.io/github/license/julianecassidy/react-jobify)
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+         <!-- <li><a href="#screenshots">Screenshots</a></li> -->
+        <li><a href="#key-features">Key Features</a></li>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `npm test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Jobify is a job board site. Companies can post available jobs and users can sign up to browse jobs. It was originally built in 2023 as a project at [Rithm School](https://www.rithmschool.com/).
 
-### `npm run build`
+This project contains both a frontend React app and backend Express app. This repo is the frontend and you can find the backend code [here](https://github.com/julianecassidy/react-jobly-backend).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies in the frontend include:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React with React Router for routing
+- Vanilla CSS for stlying
+- [Axios](https://axios-http.com/) for API calls
+- [Surge](https://surge.sh/) for hosting
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Technologies for the backend are:
 
-### `npm run eject`
+- Express
+- PostgreSQL
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The deployed backend is hosted on [Render](https://render.com/) and the database is hosted on [ElephantSQL](https://www.elephantsql.com/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The backend was built from an existing codebase with minimal features, 80% testing coverage, and some security bugs. Working with a pair, I built the frontend entirely from scratch.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project offered learning opportunities around:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- User authentication and authorization on backend and frontend
+- User sessions and cookies
+- Password hashing and encryption
+- Building RESTful APIs
+- Separation of concerns between back and frontend, as well as between logic and display
+- Routing in an SPA
+- React component design
+- React state management and context
 
-## Learn More
+You can log into the [demo site](http://jobify.julianecassidy.com/) with the following credentials:
+- Username: `guest`
+- Password: `password`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- ### Screenshots
 
-### Code Splitting
+<p>
+  <img src="static/images/screenshots/timeline.png" alt="Logged In Timeline">
+  <br>
+  <em>Logged-In Timeline</em>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p>
+  <img src="static/images/screenshots/profile.png" alt="User Profile Page">
+  <br>
+  <em>User Profile Page</em>
+</p>
 
-### Analyzing the Bundle Size
+<p>
+  <img src="static/images/screenshots/followers.png" alt="Followers Listing Page">
+  <br>
+  <em>Followers Listing Page</em>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-### Making a Progressive Web App
+### Key Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+### Built With
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project was built in May 2023 with the following:
 
-### Deployment
+- ![React][React]
+- ![React Router][React Router]
+- ![Axios][Axios]
+- ![Express][Express]
+- ![PostgreSQL][PostgreSQL]
+- ![ElephantSQL][ElephantSQL]
+- ![Node.js][Node.js]
+- ![Surge][Surge]
+- ![Render][Render]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+See [requirements.txt](https://github.com/julianecassidy/react-jobify/blob/master/requirements.txt) for a full list of dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these steps.
+
+1. Clone the frontend and backend repos
+
+   ```bash
+   git clone https://github.com/julianecassidy/react-jobify
+   git clone https://github.com/julianecassidy/react-jobly-backend
+   ```
+
+2. Create and seed the database
+
+   ```bash
+   createdb jobly
+   cd jobly-backend
+   psql jobly.sql
+   ```
+
+3. Install dependencies and run the backend server (Defaults to port `3001`)
+
+   ```bash
+    cd jobly-backend
+    npm install
+    npm run start
+    ```
+
+4. In a new terminal, install dependencies and run the frontend server (defaults to port `3000`)
+
+   ```bash
+    cd react-jobify
+    npm install
+    npm run start
+    ```
+
+
+7. Go to localhost:5000 to view the app
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ROADMAP -->
+
+## Roadmap
+
+- [ ] Add user profile page with options to edit profile
+- [ ] Add a "forgot password" feature
+- [ ] Refactor styling with Tailwind CSS
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+<!-- LICENSE -->
+
+
+<!-- CONTACT -->
+
+## Contact
+
+[JulianeCassidy](https://julianecassidy.com)
+[LinkedIn](https://www.linkedin.com/in/julianemcassidy/)
+
+Project Link (Frontend): [https://github.com/julianecassidy/react-jobify](https://github.com/julianecassidy/react-jobify)
+
+Project Link (Backend): [https://github.com/julianecassidy/react-jobly-backend](https://github.com/julianecassidy/react-jobly-backend)
+
+Live Demo: [http://jobify.julianecassidy.com/](http://jobify.julianecassidy.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+I completed this project at [Rithm School](https://www.rithmschool.com/). I would like to thank the my pairs for the project -- [Justin Clark](https://github.com/jclark1913) on the backend and [Sarah Graup](https://github.com/sarahgraup) on the frontend. I'd also like to thank the staff of Rithm for code reviews and assistance.
+
+- [Rithm School](https://www.rithmschool.com/)
+- [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Img Shields](https://shields.io)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- TECHNOLOGY BADGES -->
+
+[React]: https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white
+[React Router]: https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white
+[Axios]: https://img.shields.io/badge/Axios-5A2D81?logo=axios&logoColor=white
+[Express]: https://img.shields.io/badge/Express-000000?logo=express&logoColor=white
+[Node.js]: https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white
+[PostgreSQL]: https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white
+[ElephantSQL]: https://img.shields.io/badge/ElephantSQL-2D9CDB?logo=elephantsql&logoColor=white
+[Surge]: https://img.shields.io/badge/Surge-def1e7?logo=surge&logoColor=black
+[Render]: https://img.shields.io/badge/Render-000000?logo=render&logoColor=white
