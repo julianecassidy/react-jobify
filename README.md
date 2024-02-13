@@ -87,27 +87,21 @@ You can log into the [demo site](http://jobify.julianecassidy.com/) with the fol
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ### Screenshots
+### Screenshots
 
 <p>
-  <img src="static/images/screenshots/timeline.png" alt="Logged In Timeline">
+  <img src="/homepage.png" alt="Homepage for non-logged in users">
   <br>
-  <em>Logged-In Timeline</em>
+  <em>Welcome page for non-logged in users</em>
 </p>
 
 <p>
-  <img src="static/images/screenshots/profile.png" alt="User Profile Page">
+  <img src="/company-listing.png" alt="Listing of companies">
   <br>
-  <em>User Profile Page</em>
+  <em>Company listing for logged in users</em>
 </p>
 
-<p>
-  <img src="static/images/screenshots/followers.png" alt="Followers Listing Page">
-  <br>
-  <em>Followers Listing Page</em>
-</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Key Features
 
