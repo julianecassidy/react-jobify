@@ -18,8 +18,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/julianecassidy/react-jobify)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/julianecassidy/react-jobify)
 ![GitHub last commit](https://img.shields.io/github/last-commit/julianecassidy/react-jobify)
-![GitHub](https://img.shields.io/github/license/julianecassidy/react-jobify)
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,7 +28,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
          <!-- <li><a href="#screenshots">Screenshots</a></li> -->
-        <li><a href="#key-features">Key Features</a></li>
+<!--         <li><a href="#key-features">Key Features</a></li> -->
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
@@ -39,8 +37,8 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
+<!--     <li><a href="#contributing">Contributing</a></li> -->
+<!--     <li><a href="#license">License</a></li> -->
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -103,10 +101,6 @@ You can log into the [demo site](http://jobify.julianecassidy.com/) with the fol
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Key Features
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 This project was built in May 2023 with the following:
@@ -122,7 +116,7 @@ This project was built in May 2023 with the following:
 - ![Render][Render]
 
 
-See [requirements.txt](https://github.com/julianecassidy/react-jobify/blob/master/requirements.txt) for a full list of dependencies.
+See [requirements.txt](https://github.com/julianecassidy/react-jobly-backend/blob/master/requirements.txt) for a full list of dependencies.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,6 +169,7 @@ To get a local copy up and running follow these steps.
 - [ ] Add user profile page with options to edit profile
 - [ ] Add a "forgot password" feature
 - [ ] Refactor styling with Tailwind CSS
+- [ ] Movevery frontend from Surge to Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +197,7 @@ Live Demo: [http://jobify.julianecassidy.com/](http://jobify.julianecassidy.com/
 
 ## Acknowledgments
 
-I completed this project at [Rithm School](https://www.rithmschool.com/). I would like to thank the my pairs for the project -- [Justin Clark](https://github.com/jclark1913) on the backend and [Sarah Graup](https://github.com/sarahgraup) on the frontend. I'd also like to thank the staff of Rithm for code reviews and assistance.
+I completed this project at [Rithm School](https://www.rithmschool.com/). I would like to thank the my pairs for the project -- [Chris Lupton](https://github.com/clupt) on the backend and [Sarah Graup](https://github.com/sarahgraup) on the frontend. I'd also like to thank the staff of Rithm for code reviews and assistance.
 
 - [Rithm School](https://www.rithmschool.com/)
 - [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
